@@ -1,0 +1,59 @@
+a {
+    color: red;
+}
+
+    {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    background-color: blanchedalmond;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.content {
+    flex: 1 0 auto;
+
+}
+
+.footer {
+    flex: 0 0 auto;
+}
+
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.menu ul a li {
+    list-style: none;
+    height: 50px;
+    width: 100px;
+}
+
+.menu a {
+    text-decoration: none;
+    height: 20px;
+}
+
+.menu a:hover {
+    color: brown;
+    font-size: 20px;
+
+}
+
+head{
+    font-family: monospace;
+    font-size: 40px;
+    object-position: center;
+}

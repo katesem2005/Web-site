@@ -52,8 +52,74 @@ body {
 
 }
 
-head{
+head {
     font-family: monospace;
     font-size: 40px;
     object-position: center;
 }
+
+.content ul img {
+    margin-left: 80px;
+	
+	padding: 50px;
+}
+
+
+input {
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 250px;
+    height: 30px;
+    opacity: 0.4;
+    margin: 10px 15px 10px 15px;
+
+}
+
+.button {
+    background: cornflowerblue;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500. font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    
+}
+
+.button:hover {
+    background-color: blue;
+
+}
+.button:active {
+    background: red;
+}
+
+.content_page form{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

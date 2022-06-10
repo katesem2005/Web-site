@@ -1,125 +1,129 @@
 a {
-    color: red;
+	color: red;
 }
 
-    {
-    margin: 0;
-    padding: 0;
+	{
+	margin: 0;
+	padding: 0;
 }
 
 html,
 body {
-    height: 100%;
-    background-color: blanchedalmond;
+	height: 100%;
+	background-color: blanchedalmond;
 }
 
 .wrapper {
-    display: flex;
-    flex-direction: column;
-    min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
 }
 
 .content {
-    flex: 1 0 auto;
+	flex: 1 0 auto;
+	font-family: Palatino Linotype;
 
 }
 
 .footer {
-    flex: 0 0 auto;
+	flex: 0 0 auto;
 }
 
 
+
 .menu ul {
-    display: flex;
-    justify-content: space-around;
+	display: flex;
+	justify-content: space-around;
 
 }
 
 .menu ul a li {
-    list-style: none;
-    height: 50px;
-    width: 100px;
+	list-style: none;
+	height: 50px;
+	width: 100px;
 }
 
 .menu a {
-    text-decoration: none;
-    height: 20px;
+	text-decoration: none;
+	height: 20px;
+	font-family: Palatino Linotype;
+
 }
 
 .menu a:hover {
-    color: brown;
-    font-size: 20px;
+	color: brown;
+	font-size: 20px;
 
 }
 
 head {
-    font-family: monospace;
-    font-size: 40px;
-    object-position: center;
+	font-family: Palatino Linotype;
+	font-size: 40px;
+	object-position: center;
 }
 
 .content ul img {
-    margin-left: 80px;
-	
-	padding: 50px;
+	height: 300px;
+	width: 300px;
+	display: flex;
+	flex-direction:row;
+	margin:auto;
+	display: inline;
 }
 
 
 input {
-    border: 1px solid #356EAD;
-    box-sizing: border-box;
-    border-radius: 10px;
-    width: 250px;
-    height: 30px;
-    opacity: 0.4;
-    margin: 10px 15px 10px 15px;
+	border: 1px solid #356EAD;
+	box-sizing: border-box;
+	border-radius: 10px;
+	width: 250px;
+	height: 30px;
+	opacity: 0.4;
+	margin: 10px 15px 10px 15px;
+	
 
 }
 
 .button {
-    background: cornflowerblue;
-    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
-    border-radius: 10px;
-    font-weight: 500. font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    color: #FFFFFF;
-    text-transform: uppercase;
-    
+	background: cornflowerblue;
+	box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+	border-radius: 10px;
+	font-weight: 500. font-size: 16px;
+	line-height: 26px;
+	text-align: center;
+	color: #FFFFFF;
+	text-transform: uppercase;
+
 }
 
 .button:hover {
-    background-color: blue;
+	background-color: blue;
 
 }
+
 .button:active {
-    background: red;
+	background: red;
 }
 
-.content_page form{
-    display: flex;
-    flex-direction: column;
-    align-items:center;
+.content_page form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
+h1 {
+	font-family: Palatino Linotype;
+}
 
+p1 {
+	font-size: 30px;
+	display: block;
+	font-family: Palatino Linotype;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+p {
+	max-width: 300px;
+	object-position: center;
+	font-family: Palatino Linotype;
+	display: block;
+}
